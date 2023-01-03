@@ -32,4 +32,4 @@ ENTRYPOINT [ "/docker-entrypoint.sh" ]
 
 # RUN SSH in no daemon and expose errors to stdout
 #CMD [ "/usr/sbin/sshd", "-D", "-e" ]
-CMD [ "/bin/bash", "-D", "-e" ]
+CMD [ "/bin/bash"]
