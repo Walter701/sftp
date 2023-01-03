@@ -4,7 +4,6 @@ set -e
 FOLDER="/sftp"
 USERNAME="sftpdevelop"
 PASSWORD="1q2w3e4r"
-mkdir $FOLDER
 echo $FOLDER
 
 # Allow to run complementary processes or to enter the container without
