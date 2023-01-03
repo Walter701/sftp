@@ -21,6 +21,7 @@ RUN addgroup sftp
 RUN mkdir /sftp
 RUN useradd -m sftpdevelop -g sftp -d /sftp/sftpdevelop
 RUN echo "sftpdevelop:1q2w3e4r" | chpasswd
+RUN chmod 644 /etc/shadow
 
 # Default environment variables
 ENV TZ="America/Buenos_Aires" \
