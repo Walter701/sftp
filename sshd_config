@@ -34,7 +34,6 @@ StrictModes yes
 Subsystem sftp /usr/lib/openssh/sftp-server -f AUTHPRIV -l info
 SyslogFacility AUTH
 TCPKeepAlive no
-UsePrivilegeSeparation sandbox
 X11Forwarding no
 X11UseLocalhost yes
 
