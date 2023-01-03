@@ -28,8 +28,9 @@ ENV TZ="America/Buenos_Aires" \
     FOLDER="/sftp" 
 
 EXPOSE 2222
-ENTRYPOINT [ "/bin/bash" ]
+#ENTRYPOINT [ "/bin/bash" ]
 
 # RUN SSH in no daemon and expose errors to stdout
 #CMD [ "/usr/sbin/sshd", "-D", "-e" ]
+
 
