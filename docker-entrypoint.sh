@@ -14,6 +14,7 @@ if [ "$1" == '/usr/sbin/sshd' ]; then
   if [ ! -f /sftp/etc/ssh/ssh_host_ecdsa_key ]; then
     ssh-keygen -f /sftp/etc/ssh/ssh_host_ecdsa_key -N '' -t ecdsa
   fi
+  chmod 600 /sftp/etc/ssh/*_key
   cp /etc/ssh/sshd_config /sftp/etc/ssh/
 
 
