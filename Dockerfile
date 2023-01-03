@@ -3,7 +3,7 @@ FROM alpine
 # shadow is required for usermod
 # tzdata for time syncing
 # bash for entrypoint script
-RUN apk add --no-cache openssh bash shadow tzdata
+RUN apk add --no-cache openssh bash shadow tzdata tcpdump
 
 # Ensure key creation
 RUN ssh-keygen -f /etc/ssh/ssh_host_rsa_key -N '' -t rsa
