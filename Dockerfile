@@ -39,7 +39,7 @@ EXPOSE 2222
 ENTRYPOINT [ "/docker-entrypoint.sh" ]
 
 # RUN SSH in no daemon and expose errors to stdout
-CMD [ "/usr/sbin/sshd", "-D", "-e" ]
-#CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
+#CMD [ "/usr/sbin/sshd", "-D", "-e" ]
+CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
 
 
