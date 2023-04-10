@@ -10,9 +10,9 @@ ClientAliveCountMax 3
 ClientAliveInterval 600
 Compression yes
 GatewayPorts no
-HostKey /sftp/etc/ssh/ssh_host_rsa_key
-HostKey /sftp/etc/ssh/ssh_host_dsa_key
-HostKey /sftp/etc/ssh/ssh_host_ecdsa_key
+HostKey /data/etc/ssh/ssh_host_rsa_key
+HostKey /data/etc/ssh/ssh_host_dsa_key
+HostKey /data/etc/ssh/ssh_host_ecdsa_key
 HostbasedAuthentication no
 IgnoreRhosts yes
 IgnoreUserKnownHosts yes
