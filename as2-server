@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 
-unzip /aux/as2/OpenAS2Server-3.5.0.zip -d /data/as2
+unzip /aux/as2/OpenAS2.zip -d /data/as2
 cp /aux/as2/config/* /data/as2/config   

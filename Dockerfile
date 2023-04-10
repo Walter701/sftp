@@ -20,7 +20,7 @@ RUN mkdir -p /data
 ADD sshd_config /etc/ssh/sshd_config
 RUN addgroup sftp
 RUN mkdir -p /aux/as2/config
-ADD OpenAS2Server-3.5.0.zip /aux/as2
+ADD OpenAS2.z* /aux/as2
 ADD as2-server /docker-entrypoint.d/
 ADD config/ /aux/as2/config/
 #RUN chmod +x /docker-entrypoint.d/as2-server.sh
